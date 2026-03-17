@@ -1,4 +1,5 @@
 #  🌍Global Access to Drinking Water
+
 Exploratory data analysis of global drinking water access using the WHO/UNICEF JMP dataset (2020). Includes data cleaning, feature engineering, statistical analysis, and visualizations.
 
 ## Overview
@@ -89,7 +90,7 @@ These issues required a structured data cleaning process before performing analy
 
 # Data Cleaning Process
 
-## Step 1 — Correcting Column Separators
+## Step 1 Correcting Column Separators
 
 Delimiter inconsistencies were corrected using:
 
@@ -99,7 +100,7 @@ Rows containing semicolons were split into the correct columns.
 
 ---
 
-## Step 2 — Row Validation
+## Step 2 Row Validation
 
 A validation column called **value_cnt** was created using the formula:
 
@@ -115,7 +116,7 @@ Rows with fewer values were filtered and corrected.
 
 ---
 
-## Step 3 — Fixing Incorrect Rows
+## Step 3 Fixing Incorrect Rows
 
 Five rows were identified where values were incorrectly imported due to semicolon separators.
 
@@ -126,7 +127,7 @@ These rows were corrected by:
 
 ---
 
-## Step 4 — Handling Invalid Percentage Values
+## Step 4 Handling Invalid Percentage Values
 
 Some values exceeded 100%.
 
@@ -138,7 +139,7 @@ This column corrected values exceeding logical limits.
 
 ---
 
-## Step 5 — Handling Formula Errors
+## Step 5 Handling Formula Errors
 
 Spreadsheet errors (#VALUE!) were converted to **NAN values** to prevent statistical calculations from failing.
 
@@ -279,7 +280,7 @@ The analysis revealed several important trends:
 
 • Population size alone does not explain water access differences; **urbanization and income level are stronger indicators.**
 
-# global-water-access-analysis
+## global-water-access-analysis
 
 
 <img width="1600" height="620" alt="all" src="https://github.com/user-attachments/assets/f1eb6a07-63bd-4799-8c4e-b1007465434b" />
