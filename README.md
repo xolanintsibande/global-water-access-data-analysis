@@ -28,7 +28,8 @@ Dataset:
 **Estimates on the Use of Water (2020)**
 
 Official dataset source:
-https://washdata.org
+
+<img width="1594" height="583" alt="raw data" src="https://github.com/user-attachments/assets/4bb6623f-059a-4563-ade8-0b90bd04a9b9" />
 
 The dataset contains **16 original features**, including:
 
@@ -110,6 +111,8 @@ Expected value: **16 columns**
 
 Rows with fewer values were filtered and corrected.
 
+<img width="1600" height="370" alt="COUNT A " src="https://github.com/user-attachments/assets/bf882de3-47a9-4f39-ad15-532d068f4beb" />
+
 ---
 
 ## Step 3 — Fixing Incorrect Rows
@@ -157,6 +160,10 @@ To support deeper analysis, additional variables were created.
 
 After cleaning and feature creation, the dataset contained **23 analytical features**.
 
+<img width="1600" height="648" alt="frst" src="https://github.com/user-attachments/assets/62143e8e-2efa-4d32-8e4b-0b5019c25de0" />
+
+
+
 ---
 
 # Analysis
@@ -193,6 +200,9 @@ Measures calculated for each water service level:
 
 These statistics helped understand the **distribution of water access levels across countries**.
 
+
+<img width="1600" height="590" alt="population                                                                                              (2)" src="https://github.com/user-attachments/assets/257c0046-cad8-4b31-90b1-298f8e9bdd57" />
+
 ---
 
 # Data Visualizations
@@ -223,6 +233,7 @@ For:
 - National populations
 - Urban populations
 - Rural populations
+  
 
 ---
 
@@ -249,6 +260,9 @@ Grouped by:
 - Upper-middle income
 - High income
 
+  <img width="796" height="342" alt="pvit" src="https://github.com/user-attachments/assets/566adf9f-d22e-463f-85ad-cee61cb32ceb" />
+
+
 ---
 
 # Key Insights
@@ -264,6 +278,11 @@ The analysis revealed several important trends:
 • **Higher-income countries generally show the highest levels of basic water service access.**
 
 • Population size alone does not explain water access differences; **urbanization and income level are stronger indicators.**
+
+# global-water-access-analysis
+
+
+<img width="1600" height="620" alt="all" src="https://github.com/user-attachments/assets/f1eb6a07-63bd-4799-8c4e-b1007465434b" />
 
 ---
 
