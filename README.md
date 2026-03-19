@@ -1,12 +1,12 @@
 #  🌍Global Access to Drinking Water
 
-Urban population show higher basic water access than rural populations.
+Urban population have higher basic water access than rural population in 2020 JMP data
 
 Mean urban access : 77.79%
 
 Rural access : 62.62%
 
-Gap scale : 15.17%
+Gap : 15.17 percentage points
 
 ## Overview
 
@@ -19,14 +19,14 @@ The goal of the analysis was to investigate how **population size, urbanization,
 
 # Key Results 
 
-- Mean national basic water access : 88.5%
+- Mean national basic water access : 88.55%
 
 - Mean rural basic water access : 62.62%
   
 - Mean urban basic water access : 77.79%
 
   <b> Rural vs Urban gap</b> :
-        77.79 - 62.62 = 15.17 %
+        77.79 - 62.62 = 15.17 percentage
   
 - Mean rural unimproved water access : 6.72%
 
@@ -48,7 +48,7 @@ WHO / UNICEF Joint Monitoring Programme (JMP)
 Dataset:  
 **Estimates on the Use of Water (2020)**
 
-<img width="1594" height="583" alt="raw data" src="https://github.com/user-attachments/assets/4bb6623f-059a-4563-ade8-0b90bd04a9b9" />
+Official dataset : https://docs.google.com/spreadsheets/d/15uoqnfNNOvl4Sz2Hy8h0lDIxaV0r-vUJOZuzsrYnlG0/edit?usp=drivesdk
 
 The dataset contains **16 original features**, including:
 
@@ -102,8 +102,6 @@ Some percentage values exceeded **100%**, which is not logically possible for po
 
 Certain calculations returned **#VALUE! errors**, preventing summary statistics from working correctly.
 
-These issues required a structured data cleaning process before performing analysis.
-
 ---
 
 # Data Cleaning Process
@@ -122,11 +120,9 @@ Rows containing semicolons were split into the correct columns.
 
 A validation column called **value_cnt** was created using the formula:
 
-COUNTA()
+value_cnt = COUNTA(A2:P2)
 
 This counted the number of populated cells in each row.
-
-Expected value: **16 columns**
 
 Rows with fewer values were filtered and corrected.
 
@@ -153,7 +149,6 @@ A new column was created:
 
 wat_bas_n (rounded)
 
-
 This column corrected values exceeding logical limits.
 
 ---
@@ -172,11 +167,11 @@ To support deeper analysis, additional variables were created.
 |------|------|
 | value_cnt | Row validation count |
 | pop_u_val | Urban population value |
-| pop_r | Rural population share |
-| pop_n (m) | Population converted to millions |
+| pop_r  = 100 - pop_u | Rural population share |
+| pop_n (m) = pop_n / 1000 | Population converted to millions |
 | pop_u (rounded) | Rounded urban share |
 | pop_r (rounded) | Rounded rural share |
-| wat_bas_n (rounded) | Cleaned basic water access feature |
+| wat_bas_n (rounded) | Cleaned basic water access feature | 
 
 After cleaning and feature creation, the dataset contained **23 analytical features**.
 
@@ -212,17 +207,17 @@ Measures calculated for each water service level:
 
 - Maximum
 - Minimum
-- Mean
-- Median
+- Mean (measures overall trend)
+- Median (reduces impact of extreme values)
 - Mode
 - Standard deviation
-- Interquartile range (IQR)
+- Interquartile range(IQR) measures spread of middle 50%
 
- Mean measures overall trend
+ 
   
-Median reduces impact of extreme values
 
-Interquartile range measures spread of middle 50%
+
+
 
 These statistics helped understand the **distribution of water access levels across countries**.
 
@@ -243,7 +238,6 @@ Line chart comparing:
 - Urban population share
 - Rural population share
 
-Insight: Population distribution varies significantly across countries
 ---
 
 ### Distribution of Water Access
@@ -261,7 +255,6 @@ For:
 - Urban populations
 - Rural populations
   
-Insight: Rural access shows wider variability
 ---
 
 ### Water Access by Population Size
@@ -270,8 +263,6 @@ Insight: Rural access shows wider variability
 
 These charts helped illustrate how access varies across different population groups.
 
-
-## Insight: Basic water access dominates
 ---
 
 ### Water Access by Income Group
