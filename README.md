@@ -2,11 +2,11 @@
 
 Urban population show higher basic water access than rural populations.
 
-Mean urban access = 77.79%
+Mean urban access : 77.79%
 
-Rural access = 62.62%
+Rural access : 62.62%
 
-Gap scale = 15.17%
+Gap scale : 15.17%
 
 ## Overview
 
@@ -15,9 +15,31 @@ This project analyzes global water access using the **WHO/UNICEF Joint Monitorin
 
 The goal of the analysis was to investigate how **population size, urbanization, and national income levels relate to access to different drinking water service levels**.
 
-
 ---
 
+# Key Results 
+
+- Mean national basic water access : 88.5%
+
+- Mean rural basic water access : 62.62%
+  
+- Mean urban basic water access : 77.79%
+
+  <b> Rural vs Urban gap</b> :
+        77.79 - 62.62 = 15.17 %
+  
+- Mean rural unimproved water access : 6.72%
+
+- Mean urban unimproved water access : 1.41%
+
+- Median national basic water access : 97.10%
+
+- Median rural basic water access : 79.94%
+
+- Median urban basic water access : 96.98%
+
+
+  
 # Dataset
 
 Source:  
@@ -55,10 +77,10 @@ Each water access level is recorded for:
 
 The objective of this analysis was to answer the following questions:
 
-1. How does the dataset population compare with global population estimates?
-2. How does urbanization affect water access levels?
-3. How does water access vary between national, urban, and rural populations?
-4. What relationship exists between income group and water service access?
+1. What percentage difference exist between rural and urban basic water access   
+2. How does water access vary between national, urban, and rural populations?
+   
+3. What relationship exists between income group and water service access?
 
 ---
 
