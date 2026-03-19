@@ -1,6 +1,12 @@
 #  🌍Global Access to Drinking Water
 
-Exploratory data analysis of global drinking water access using the WHO/UNICEF JMP dataset (2020). Includes data cleaning, feature engineering, statistical analysis, and visualizations.
+Urban population show higher basic water access than rural populations.
+
+Mean urban access = 77.79%
+
+Rural access = 62.62%
+
+Gap scale = 15.17%
 
 ## Overview
 
@@ -9,14 +15,6 @@ This project analyzes global water access using the **WHO/UNICEF Joint Monitorin
 
 The goal of the analysis was to investigate how **population size, urbanization, and national income levels relate to access to different drinking water service levels**.
 
-This project was completed as part of the **ALX Data Analytics Program** and demonstrates practical data analysis skills including:
-
-- Data cleaning
-- Data validation
-- Feature engineering
-- Statistical analysis
-- Data visualization
-- Exploratory data analysis
 
 ---
 
