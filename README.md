@@ -318,12 +318,17 @@ The analysis revealed several important trends:
 
 # Tools Used
 
-Google Sheets  
-Data Cleaning  
-Feature Engineering  
-Statistical Analysis  
-Pivot Tables  
-Data Visualization
+Google Sheets
+
+Used for:
+
+- Data cleaning
+
+- Data validation
+
+- Statistical analysis
+
+- Visualization
 
 ---
 
