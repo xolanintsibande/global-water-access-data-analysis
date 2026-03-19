@@ -48,8 +48,6 @@ WHO / UNICEF Joint Monitoring Programme (JMP)
 Dataset:  
 **Estimates on the Use of Water (2020)**
 
-Official dataset source:
-
 <img width="1594" height="583" alt="raw data" src="https://github.com/user-attachments/assets/4bb6623f-059a-4563-ade8-0b90bd04a9b9" />
 
 The dataset contains **16 original features**, including:
@@ -152,8 +150,9 @@ These rows were corrected by:
 Some values exceeded 100%.
 
 A new column was created:
+
 wat_bas_n (rounded)
-Copy code
+
 
 This column corrected values exceeding logical limits.
 
@@ -219,6 +218,12 @@ Measures calculated for each water service level:
 - Standard deviation
 - Interquartile range (IQR)
 
+ Mean measures overall trend
+  
+Median reduces impact of extreme values
+
+Interquartile range measures spread of middle 50%
+
 These statistics helped understand the **distribution of water access levels across countries**.
 
 
@@ -238,6 +243,7 @@ Line chart comparing:
 - Urban population share
 - Rural population share
 
+Insight: Population distribution varies significantly across countries
 ---
 
 ### Distribution of Water Access
@@ -255,7 +261,7 @@ For:
 - Urban populations
 - Rural populations
   
-
+Insight: Rural access shows wider variability
 ---
 
 ### Water Access by Population Size
@@ -264,6 +270,8 @@ For:
 
 These charts helped illustrate how access varies across different population groups.
 
+
+## Insight: Basic water access dominates
 ---
 
 ### Water Access by Income Group
@@ -282,6 +290,7 @@ Grouped by:
 - High income
 
   <img width="796" height="342" alt="pvit" src="https://github.com/user-attachments/assets/566adf9f-d22e-463f-85ad-cee61cb32ceb" />
+
 
 
 ---
