@@ -263,6 +263,9 @@ For:
 
 These charts helped illustrate how access varies across different population groups.
 
+<img width="1600" height="620" alt="all" src="https://github.com/user-attachments/assets/f1eb6a07-63bd-4799-8c4e-b1007465434b" />
+
+
 ---
 
 ### Water Access by Income Group
@@ -300,10 +303,7 @@ The analysis revealed several important trends:
 
 • Population size alone does not explain water access differences; **urbanization and income level are stronger indicators.**
 
-## global-water-access-analysis
 
-
-<img width="1600" height="620" alt="all" src="https://github.com/user-attachments/assets/f1eb6a07-63bd-4799-8c4e-b1007465434b" />
 
 ---
 
